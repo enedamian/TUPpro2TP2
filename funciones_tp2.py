@@ -1,4 +1,4 @@
-def reverso(texto):
+def reverso(texto:str)->str:
     ultPos = len(texto) - 1
     reverso = ""
     for i in range(ultPos,-1,-1):
